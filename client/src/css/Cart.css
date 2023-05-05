@@ -1,0 +1,25 @@
+.reject{
+    display:flex;
+    opacity:0;
+    transition:0.7s;
+    animation:reject 3s linear;
+    }
+    @keyframes reject {
+      0%{
+    display:flex;
+    opacity:0.7;
+      }
+      25%{
+    display:flex;
+    opacity:1;
+      }
+      75%{
+    opacity:0.7;
+    display:flex;
+      }
+      100%{
+    opacity:0;
+    
+        display:none;
+      }
+    }

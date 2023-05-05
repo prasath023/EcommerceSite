@@ -1,0 +1,36 @@
+.success{
+    display:flex;
+    opacity:0;
+    transition:0.7s;
+    animation:success 3s linear;
+    }
+    @keyframes success {
+      0%{
+    display:flex;
+    opacity:0.7;
+      }
+      25%{
+    display:flex;
+    opacity:1;
+      }
+      75%{
+    opacity:0.7;
+    display:flex;
+      }
+      100%{
+    opacity:0;
+    
+        display:none;
+      }
+    }
+    .singleProduct{
+      height:26rem;
+    }
+    .offerBg{
+      background:#0080FF
+    }
+
+.filterHeight{
+top:10vh
+}
+

@@ -1,0 +1,16 @@
+
+.menu{
+height:85vh;
+}
+
+@media only screen and (max-width:600px) {
+
+    .textTop{
+font-size:10px;
+}
+
+}
+
+.homeDiv{
+height:490px;
+}
